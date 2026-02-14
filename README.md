@@ -1,7 +1,7 @@
 # Jetson Face Detect (V4L2 + CUDA + TensorRT + NVENC)
 
 Low-latency pipeline:
-Camera (CSI) -> ISP -> DMA -> V4L2 -> CUDA preprocess -> TensorRT detect -> CUDA overlay -> V4L2 M2M encoder (H264) -> file
+Camera (CSI) -> ISP -> DMA -> V4L2 -> CUDA preprocess -> TensorRT detect -> CUDA overlay  for borders-> V4L2 M2M encoder (H264) -> file
 
 ## Build
 
