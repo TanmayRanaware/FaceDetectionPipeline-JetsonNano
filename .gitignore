@@ -1,0 +1,14 @@
+build/
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+jetson-face-detect
+*.engine
+*.h264
+*.mp4
+.DS_Store
+.vscode/
+*.swp
+*~
